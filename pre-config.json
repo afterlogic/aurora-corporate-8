@@ -1,0 +1,56 @@
+{
+	"system": {
+	},
+	"modules": {
+		"Core": {
+			"ProductName": "Afterlogic WebMail Pro PHP"
+		},
+		"CoreWebclient": {
+			"HeaderModulesOrder": ["mail", "contacts"],
+			"EntryModule": "mail",
+			"AllowMobile": true,
+			"ThemeList": ["Default","DeepForest","Funny"]
+		},
+		"DropboxAuthWebclient": {
+			"Scopes": "auth"
+		},
+		"Mail": {
+			"AllowDefaultAccountForUser": true,
+			"AllowFetchers": false,
+			"AllowNewUsersRegister": true,
+			"AutocreateMailAccountOnNewUserFirstLogin": true
+		},
+		"ChangePasswordWebclient": {
+			"Disabled": true
+		},
+		"FilesWebclient": {
+			"ShowCommonSettings": true,
+			"ShowFilesApps": false
+		},
+		"Calendar": {
+			"AllowTasks": true
+		},
+		"OAuthIntegratorWebclient": {
+			"AllowNewUsersRegister": false
+		},
+		"MailChangePasswordPoppassdPlugin": {
+			"Disabled": true
+		},
+		"MailAuthCpanel": {
+			"Disabled": true
+		},
+		"MailChangePasswordCpanelPlugin": {
+			"Disabled": true
+		},
+		"CoreParanoidEncryptionWebclientPlugin": {
+			"Disabled": true
+		},
+		"LicensingWebclient": {
+			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-8\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-8</a>",
+			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/webmail-pro\" target=\"_blank\">https://afterlogic.com/purchase/webmail-pro</a>"
+		},
+		"StandardLoginFormWebclient": {
+			"UseDropdownLanguagesView": true
+		}
+	}
+}
