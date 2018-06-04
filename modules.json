@@ -77,7 +77,7 @@
 		"afterlogic/aurora-module-corporate-calendar": "~0.9.0",
 		"afterlogic/aurora-module-calendar-meetings-plugin": "~0.9.0",
 		"afterlogic/aurora-module-team-contacts": "~0.9.0",
-		
+		"afterlogic/aurora-module-corporatefiles": "~0.9.0",
 		
 		"afterlogic/aurora-module-webclient-external-clients-login-form": "~0.9.0"
 	}
