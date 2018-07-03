@@ -3,10 +3,10 @@
 	},
 	"modules": {
 		"Core": {
-			"ProductName": "Afterlogic WebMail Pro PHP"
+			"ProductName": "Afterlogic Aurora Corporate"
 		},
 		"CoreWebclient": {
-			"HeaderModulesOrder": ["mail", "contacts"],
+			"HeaderModulesOrder": ["mail", "contacts", "calendar", "files"],
 			"EntryModule": "mail",
 			"AllowMobile": true,
 			"ThemeList": ["Default","DeepForest","Funny"]
@@ -46,11 +46,14 @@
 			"Disabled": true
 		},
 		"LicensingWebclient": {
-			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-8\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-8</a>",
-			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/webmail-pro\" target=\"_blank\">https://afterlogic.com/purchase/webmail-pro</a>"
+			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-8\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-8</a>",
+			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/aurora-corporate\" target=\"_blank\">https://afterlogic.com/purchase/aurora-corporate</a>"
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true
+		},
+		"ActiveServer": {
+			"Disabled": true
 		}
 	}
 }
