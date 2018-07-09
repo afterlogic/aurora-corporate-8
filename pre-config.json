@@ -54,6 +54,9 @@
 		},
 		"ActiveServer": {
 			"Disabled": true
+		},
+		"OutlookSyncWebclient": {
+			"PluginReadMoreLink": "<a href=\"https://afterlogic.com/docs/aurora/configuring-webmail/outlook-sync" target=\"_blank\">https://afterlogic.com/docs/aurora/configuring-webmail/outlook-sync</a>"
 		}
 	}
 }
