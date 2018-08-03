@@ -46,7 +46,7 @@
 		},
 		"LicensingWebclient": {
 			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-8\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-8</a>",
-			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/aurora-corporate\" target=\"_blank\">https://afterlogic.com/purchase/aurora-corporate</a>"
+			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/aurora\" target=\"_blank\">https://afterlogic.com/purchase/aurora</a>"
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true,
