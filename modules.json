@@ -81,6 +81,8 @@
 		"afterlogic/aurora-module-webclient-outlook-sync": "~0.9.0",
 		
 		"afterlogic/aurora-module-webclient-external-clients-login-form": "~0.9.0",
-		"afterlogic/aurora-module-two-factor-auth": "0.9.x"
+		"afterlogic/aurora-module-two-factor-auth": "0.9.x",
+		
+		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	}
 }
