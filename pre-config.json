@@ -36,10 +36,7 @@
 		"MailChangePasswordPoppassdPlugin": {
 			"Disabled": true
 		},
-		"MailAuthCpanel": {
-			"Disabled": true
-		},
-		"MailChangePasswordCpanelPlugin": {
+		"CpanelIntegrator": {
 			"Disabled": true
 		},
 		"MailSaveMessageAsPdfPlugin": {
