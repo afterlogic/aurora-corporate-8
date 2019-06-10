@@ -67,6 +67,9 @@
 		},
 		"SharedFiles": {
 			"Disabled": true
+		},
+		"Contacts": {
+			"ImportContactsLink": "https://afterlogic.com/docs/webmail-lite-8/frequently-asked-questions/importing-contacts"
 		}
 	}
 }
