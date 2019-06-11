@@ -51,7 +51,7 @@ git clone https://github.com/afterlogic/aurora-corporate-8.git INSTALL_FOLDER_PA
 
       First of all, install all npm modules via
       ```bash
-      npm install ./modules/CoreWebclient
+      npm install
       ```
       and install gulp-cli module globaly 
       ```bash
