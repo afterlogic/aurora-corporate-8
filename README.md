@@ -60,7 +60,7 @@ git clone https://github.com/afterlogic/aurora-corporate-8.git INSTALL_FOLDER_PA
 
 5. Now you can build static files
     ```bash
-    gulp styles --themes Default,DeepForest,Funny
+    gulp styles --themes Default,DeepForest,Funny,Sand
     ```
 
     ```bash
