@@ -79,6 +79,9 @@
 		"SharedFiles": {
 			"Disabled": true
 		},
+		"Ios": {
+			"IncludePasswordInProfile": false
+		},
 		"Contacts": {
 			"ImportContactsLink": "https://afterlogic.com/docs/aurora-corporate-8/frequently-asked-questions/importing-contacts"
 		}
