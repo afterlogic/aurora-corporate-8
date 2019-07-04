@@ -67,6 +67,11 @@
 		"MailMasterPassword": {
 			"Disabled": true
 		},
+		"MailLoginFormWebclient": {
+			"Disabled": true,
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/aurora\" target=\"_blank\">Afterlogic Aurora Corporate</a>"
+		},
 		"ActiveServer": {
 			"Disabled": true
 		},
