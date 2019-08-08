@@ -41,9 +41,6 @@
 		"MailChangePasswordPoppassdPlugin": {
 			"Disabled": true
 		},
-		"MailChangePasswordPoppassdExtendedPlugin": {
-			"Disabled": true
-		},
 		"CpanelIntegrator": {
 			"Disabled": true
 		},
