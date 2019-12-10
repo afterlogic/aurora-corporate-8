@@ -72,6 +72,9 @@
 			"UseDropdownLanguagesView": true,
 			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/aurora\" target=\"_blank\">Afterlogic Aurora Corporate</a>"
 		},
+		"MailLoginFormMobileWebclient": {
+			"Disabled": true
+		},
 		"ActiveServer": {
 			"Disabled": true
 		},
