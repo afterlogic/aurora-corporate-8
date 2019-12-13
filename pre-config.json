@@ -79,7 +79,8 @@
 			"Disabled": true
 		},
 		"OutlookSyncWebclient": {
-			"PluginDownloadLink": "https://afterlogic.com/download/OutlookSyncSetup.exe"
+			"PluginDownloadLink": "https://afterlogic.com/download/OutlookSyncSetup.exe",
+			"PluginReadMoreLink": "https://afterlogic.com/docs/aurora-corporate-8/configuring-webmail/outlook-sync"
 		},
 		"OverrideUserSettings": {
 			"Disabled": true
