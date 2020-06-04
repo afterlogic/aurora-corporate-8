@@ -29,16 +29,16 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.9.109",
+            "version": "0.9.111",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.9.109"
+                "reference": "tags/0.9.111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.109.zip",
-                "reference": "tags/0.9.109"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.111.zip",
+                "reference": "tags/0.9.111"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -55,7 +55,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2020-04-29T08:11:19+00:00"
+            "time": "2020-05-25T11:17:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activeserver",
@@ -1409,12 +1409,12 @@
             "version": "0.9.27",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
                 "reference": "tags/0.9.27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.9.27.zip",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.9.27.zip",
                 "reference": "tags/0.9.27"
             },
             "require": {
@@ -1957,16 +1957,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.82",
+            "version": "2.2.87",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "fd8339757e5656d02f37cd83097b14d11ac0bc18"
+                "reference": "ec53e4cbd96e1af2f9f11e528f19050607d1373c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/fd8339757e5656d02f37cd83097b14d11ac0bc18",
-                "reference": "fd8339757e5656d02f37cd83097b14d11ac0bc18",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/ec53e4cbd96e1af2f9f11e528f19050607d1373c",
+                "reference": "ec53e4cbd96e1af2f9f11e528f19050607d1373c",
                 "shasum": ""
             },
             "require": {
@@ -1994,7 +1994,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2020-04-27T10:50:02+00:00"
+            "time": "2020-06-02T13:40:40+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2041,16 +2041,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.30",
+            "version": "1.5.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "39bd3178723320ff0f4ffc4c876fd495908b1d50"
+                "reference": "7133bf706d4e51000953c4dc81e6ab5578b6fbcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/39bd3178723320ff0f4ffc4c876fd495908b1d50",
-                "reference": "39bd3178723320ff0f4ffc4c876fd495908b1d50",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/7133bf706d4e51000953c4dc81e6ab5578b6fbcf",
+                "reference": "7133bf706d4e51000953c4dc81e6ab5578b6fbcf",
                 "shasum": ""
             },
             "require": {
@@ -2078,7 +2078,7 @@
             ],
             "description": "Afterlogic MailSo",
             "homepage": "https://github.com/afterlogic/mailso",
-            "time": "2020-04-17T11:20:48+00:00"
+            "time": "2020-06-03T13:58:11+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
