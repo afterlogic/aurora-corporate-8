@@ -30,8 +30,10 @@ if [ "$TASK" = "build" ]; then
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
-	gulp test
+	#gulp test
 	
+	
+if [ "$TASK" = "pack" ]; then
 	PRODUCT_VERSION=`cat VERSION`
 	
 	echo CREATE ZIP FILE  = "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
