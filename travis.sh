@@ -31,7 +31,7 @@ if [ "$TASK" = "build" ]; then
 	gulp js:build --build a
 	gulp js:min --build a
 	#gulp test
-	
+fi
 	
 if [ "$TASK" = "pack" ]; then
 	PRODUCT_VERSION=`cat VERSION`
