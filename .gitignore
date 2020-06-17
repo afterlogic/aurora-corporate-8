@@ -11,6 +11,7 @@
 /docs
 /npm-debug.log
 /composer.phar
+/package-lock.json
 /_composer_cache
 /*.zip
 .vscode/
