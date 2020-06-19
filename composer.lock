@@ -1429,16 +1429,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.9.32",
+            "version": "0.9.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-                "reference": "tags/0.9.32"
+                "reference": "tags/0.9.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.9.32.zip",
-                "reference": "tags/0.9.32"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.9.33.zip",
+                "reference": "tags/0.9.33"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1451,7 +1451,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2020-06-18T08:01:24+00:00"
+            "time": "2020-06-19T12:28:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -1842,16 +1842,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.9.33",
+            "version": "0.9.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.9.33"
+                "reference": "tags/0.9.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.33.zip",
-                "reference": "tags/0.9.33"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.34.zip",
+                "reference": "tags/0.9.34"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1861,7 +1861,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2020-06-18T11:17:30+00:00"
+            "time": "2020-06-19T12:34:15+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-outlook-sync",
