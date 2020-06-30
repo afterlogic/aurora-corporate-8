@@ -29,16 +29,16 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.9.112",
+            "version": "0.9.114",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.9.112"
+                "reference": "tags/0.9.114"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.112.zip",
-                "reference": "tags/0.9.112"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.114.zip",
+                "reference": "tags/0.9.114"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -55,7 +55,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2020-06-04T12:36:00+00:00"
+            "time": "2020-06-29T13:09:07+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activeserver",
@@ -419,16 +419,16 @@
         },
         {
             "name": "afterlogic/aurora-module-eav-object-viewer",
-            "version": "0.9.9",
+            "version": "0.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer",
-                "reference": "tags/0.9.9"
+                "reference": "tags/0.9.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/0.9.9.zip",
-                "reference": "tags/0.9.9"
+                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/0.9.10.zip",
+                "reference": "tags/0.9.10"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -438,7 +438,7 @@
             "extra": {
                 "installer-name": "EavObjectViewer"
             },
-            "time": "2019-12-28T08:11:50+00:00"
+            "time": "2020-06-29T13:40:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-facebook",
@@ -1029,16 +1029,16 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
-            "version": "0.9.10",
+            "version": "0.9.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-viewer",
-                "reference": "tags/0.9.10"
+                "reference": "tags/0.9.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.10.zip",
-                "reference": "tags/0.9.10"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.12.zip",
+                "reference": "tags/0.9.12"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1048,7 +1048,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentViewer"
             },
-            "time": "2020-05-25T11:20:03+00:00"
+            "time": "2020-06-26T12:56:04+00:00"
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
@@ -1149,16 +1149,16 @@
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
-            "version": "0.9.24",
+            "version": "0.9.25",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-digitalocean-filestorage",
-                "reference": "tags/0.9.24"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage",
+                "reference": "tags/0.9.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-digitalocean-filestorage/archive/0.9.24.zip",
-                "reference": "tags/0.9.24"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.9.25.zip",
+                "reference": "tags/0.9.25"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1169,7 +1169,7 @@
             "extra": {
                 "installer-name": "S3Filestorage"
             },
-            "time": "2020-06-05T13:28:57+00:00"
+            "time": "2020-06-26T12:57:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
@@ -1197,16 +1197,16 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.9.22",
+            "version": "0.9.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.9.22"
+                "reference": "tags/0.9.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.22.zip",
-                "reference": "tags/0.9.22"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.24.zip",
+                "reference": "tags/0.9.24"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1217,7 +1217,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2020-06-18T08:03:25+00:00"
+            "time": "2020-06-30T06:45:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-tasks",
@@ -1383,16 +1383,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.9.34",
+            "version": "0.9.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.9.34"
+                "reference": "tags/0.9.35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.34.zip",
-                "reference": "tags/0.9.34"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.35.zip",
+                "reference": "tags/0.9.35"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1402,20 +1402,20 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2020-05-19T14:55:44+00:00"
+            "time": "2020-06-22T07:34:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.88",
+            "version": "0.9.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.88"
+                "reference": "tags/0.9.89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.88.zip",
-                "reference": "tags/0.9.88"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.89.zip",
+                "reference": "tags/0.9.89"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1425,7 +1425,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2020-05-25T11:07:30+00:00"
+            "time": "2020-06-23T13:38:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1524,16 +1524,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-file-viewer-plugin",
-            "version": "0.9.3",
+            "version": "0.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin",
-                "reference": "tags/0.9.3"
+                "reference": "tags/0.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.9.3.zip",
-                "reference": "tags/0.9.3"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.9.4.zip",
+                "reference": "tags/0.9.4"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1543,20 +1543,20 @@
             "extra": {
                 "installer-name": "FileViewerWebclientPlugin"
             },
-            "time": "2019-04-26T11:35:19+00:00"
+            "time": "2020-06-26T13:01:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.9.46",
+            "version": "0.9.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.9.46"
+                "reference": "tags/0.9.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.9.46.zip",
-                "reference": "tags/0.9.46"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.9.47.zip",
+                "reference": "tags/0.9.47"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1566,7 +1566,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2020-05-25T11:08:46+00:00"
+            "time": "2020-06-30T06:44:41+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -1684,16 +1684,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.101",
+            "version": "0.9.102",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.101"
+                "reference": "tags/0.9.102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.101.zip",
-                "reference": "tags/0.9.101"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.102.zip",
+                "reference": "tags/0.9.102"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1702,7 +1702,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2020-06-16T12:13:49+00:00"
+            "time": "2020-06-29T12:44:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2106,16 +2106,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.142.5",
+            "version": "3.144.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ba152ab9ff9e55b62ed2b47f776783242ad1480d"
+                "reference": "6848e85b4a019e1012e65cf8c82888863fe9dad7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ba152ab9ff9e55b62ed2b47f776783242ad1480d",
-                "reference": "ba152ab9ff9e55b62ed2b47f776783242ad1480d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6848e85b4a019e1012e65cf8c82888863fe9dad7",
+                "reference": "6848e85b4a019e1012e65cf8c82888863fe9dad7",
                 "shasum": ""
             },
             "require": {
@@ -2187,7 +2187,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-06-18T18:15:37+00:00"
+            "time": "2020-06-29T18:15:16+00:00"
         },
         {
             "name": "composer/installers",
@@ -4110,16 +4110,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
+                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
-                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
                 "shasum": ""
             },
             "require": {
@@ -4132,6 +4132,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4178,20 +4182,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-12T16:14:59+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a"
+                "reference": "a57f8161502549a742a63c09f0a604997bf47027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3bff59ea7047e925be6b7f2059d60af31bb46d6a",
-                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/a57f8161502549a742a63c09f0a604997bf47027",
+                "reference": "a57f8161502549a742a63c09f0a604997bf47027",
                 "shasum": ""
             },
             "require": {
@@ -4206,6 +4210,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4254,20 +4262,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c"
+                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
-                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
+                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
                 "shasum": ""
             },
             "require": {
@@ -4280,6 +4288,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4327,7 +4339,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
