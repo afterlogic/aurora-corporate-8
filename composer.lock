@@ -207,16 +207,16 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.9.73",
+            "version": "0.9.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.9.73"
+                "reference": "tags/0.9.74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.73.zip",
-                "reference": "tags/0.9.73",
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.74.zip",
+                "reference": "tags/0.9.74",
                 "shasum": null
             },
             "require": {
@@ -228,7 +228,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2020-12-29T13:51:38+00:00"
+            "time": "2021-01-22T06:20:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1490,16 +1490,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.112",
+            "version": "0.9.113",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.112"
+                "reference": "tags/0.9.113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.112.zip",
-                "reference": "tags/0.9.112",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.113.zip",
+                "reference": "tags/0.9.113",
                 "shasum": null
             },
             "require": {
@@ -1510,7 +1510,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-01-15T07:57:56+00:00"
+            "time": "2021-01-15T08:56:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1992,16 +1992,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.52",
+            "version": "0.9.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.52"
+                "reference": "tags/0.9.53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.52.zip",
-                "reference": "tags/0.9.52",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.53.zip",
+                "reference": "tags/0.9.53",
                 "shasum": null
             },
             "require": {
@@ -2014,7 +2014,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2020-12-07T11:57:07+00:00"
+            "time": "2021-01-15T08:57:41+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-outlook-sync",
@@ -2264,16 +2264,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.171.18",
+            "version": "3.171.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef"
+                "reference": "0455d92bb12d44f80db96a4e70861d186063e9e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
-                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0455d92bb12d44f80db96a4e70861d186063e9e5",
+                "reference": "0455d92bb12d44f80db96a4e70861d186063e9e5",
                 "shasum": ""
             },
             "require": {
@@ -2345,7 +2345,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-01-14T19:12:48+00:00"
+            "time": "2021-01-21T19:15:43+00:00"
         },
         {
             "name": "composer/installers",
