@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4f6e8d2ff8b1068d20652b7c63185b4",
+    "content-hash": "fc3924e0e745138c12474104e08f2750",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -2139,16 +2139,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.108",
+            "version": "2.2.109",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "ea62b71abb98d20765c3ef540181f24e302a9401"
+                "reference": "65e612aa24b4a5d3d34ddce418dcaba279ca6313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/ea62b71abb98d20765c3ef540181f24e302a9401",
-                "reference": "ea62b71abb98d20765c3ef540181f24e302a9401",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/65e612aa24b4a5d3d34ddce418dcaba279ca6313",
+                "reference": "65e612aa24b4a5d3d34ddce418dcaba279ca6313",
                 "shasum": ""
             },
             "require": {
@@ -2176,7 +2176,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2020-12-30T07:38:00+00:00"
+            "time": "2021-02-03T08:53:54+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
