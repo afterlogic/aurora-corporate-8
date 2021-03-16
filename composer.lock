@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc3924e0e745138c12474104e08f2750",
+    "content-hash": "9611bf0980d38e9f1c98e21f2a0359bd",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -1430,16 +1430,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.122",
+            "version": "0.9.124",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.122"
+                "reference": "tags/0.9.124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.122.zip",
-                "reference": "tags/0.9.122"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.124.zip",
+                "reference": "tags/0.9.124"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1449,7 +1449,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-02-15T13:25:09+00:00"
+            "time": "2021-02-20T14:19:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
