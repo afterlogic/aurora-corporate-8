@@ -330,16 +330,16 @@
         },
         {
             "name": "afterlogic/aurora-module-cpanel-integrator",
-            "version": "0.9.42",
+            "version": "0.9.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator",
-                "reference": "tags/0.9.42"
+                "reference": "tags/0.9.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.42.zip",
-                "reference": "tags/0.9.42",
+                "url": "https://github.com/afterlogic/aurora-module-cpanel-integrator/archive/0.9.43.zip",
+                "reference": "tags/0.9.43",
                 "shasum": null
             },
             "require": {
@@ -352,7 +352,7 @@
             "extra": {
                 "installer-name": "CpanelIntegrator"
             },
-            "time": "2021-02-01T07:23:30+00:00"
+            "time": "2021-03-23T11:04:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav",
@@ -708,16 +708,16 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.9.114",
+            "version": "0.9.115",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.9.114"
+                "reference": "tags/0.9.115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.114.zip",
-                "reference": "tags/0.9.114",
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.115.zip",
+                "reference": "tags/0.9.115",
                 "shasum": null
             },
             "require": {
@@ -729,7 +729,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2021-03-10T07:15:00+00:00"
+            "time": "2021-03-22T08:02:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-change-password-poppassd-extended-plugin",
@@ -1514,16 +1514,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.127",
+            "version": "0.9.128",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.127"
+                "reference": "tags/0.9.128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.127.zip",
-                "reference": "tags/0.9.127",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.128.zip",
+                "reference": "tags/0.9.128",
                 "shasum": null
             },
             "require": {
@@ -1534,20 +1534,20 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-03-18T13:52:38+00:00"
+            "time": "2021-03-22T13:41:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.9.41",
+            "version": "0.9.42",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.9.41"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "reference": "tags/0.9.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.9.41.zip",
-                "reference": "tags/0.9.41",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.9.42.zip",
+                "reference": "tags/0.9.42",
                 "shasum": null
             },
             "require": {
@@ -1561,7 +1561,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2020-12-07T11:58:06+00:00"
+            "time": "2021-03-23T07:55:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -2163,16 +2163,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.110",
+            "version": "2.2.111",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "88026b394ed854fbb3cdd5844ed1f6518e8b218e"
+                "reference": "e74a2482416dcdbf2961239161961c687ac7d221"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/88026b394ed854fbb3cdd5844ed1f6518e8b218e",
-                "reference": "88026b394ed854fbb3cdd5844ed1f6518e8b218e",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/e74a2482416dcdbf2961239161961c687ac7d221",
+                "reference": "e74a2482416dcdbf2961239161961c687ac7d221",
                 "shasum": ""
             },
             "require": {
@@ -2200,7 +2200,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2021-02-19T12:16:58+00:00"
+            "time": "2021-03-23T05:51:16+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2288,16 +2288,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.174.3",
+            "version": "3.175.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d58a350b23810a3930f432364af2d7589cf672b3"
+                "reference": "fce65d31f033c39cd3615fd2d3e503e212d81a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d58a350b23810a3930f432364af2d7589cf672b3",
-                "reference": "d58a350b23810a3930f432364af2d7589cf672b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fce65d31f033c39cd3615fd2d3e503e212d81a3e",
+                "reference": "fce65d31f033c39cd3615fd2d3e503e212d81a3e",
                 "shasum": ""
             },
             "require": {
@@ -2369,7 +2369,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-03-18T18:16:53+00:00"
+            "time": "2021-03-22T18:13:37+00:00"
         },
         {
             "name": "composer/installers",
@@ -2752,16 +2752,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.7.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
                 "shasum": ""
             },
             "require": {
@@ -2819,7 +2819,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2020-09-30T07:37:11+00:00"
+            "time": "2021-03-21T16:25:00+00:00"
         },
         {
             "name": "intervention/image",
@@ -3206,23 +3206,23 @@
         },
         {
             "name": "pear/pear_exception",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/PEAR_Exception.git",
-                "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7"
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
-                "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=4.4.0"
+                "php": ">=5.2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "<9"
             },
             "type": "class",
             "extra": {
@@ -3257,7 +3257,7 @@
             "keywords": [
                 "exception"
             ],
-            "time": "2019-12-10T10:24:42+00:00"
+            "time": "2021-03-21T15:43:46+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
