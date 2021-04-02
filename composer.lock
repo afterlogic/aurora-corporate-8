@@ -1145,16 +1145,16 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.9.52",
+            "version": "0.9.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.9.52"
+                "reference": "tags/0.9.55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.9.52.zip",
-                "reference": "tags/0.9.52"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.9.55.zip",
+                "reference": "tags/0.9.55"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1167,7 +1167,7 @@
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2021-03-25T14:35:34+00:00"
+            "time": "2021-04-02T06:34:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -1195,16 +1195,16 @@
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
-            "version": "0.9.28",
+            "version": "0.9.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-filestorage",
-                "reference": "tags/0.9.28"
+                "reference": "tags/0.9.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.9.28.zip",
-                "reference": "tags/0.9.28"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.9.29.zip",
+                "reference": "tags/0.9.29"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1215,7 +1215,7 @@
             "extra": {
                 "installer-name": "S3Filestorage"
             },
-            "time": "2020-12-22T14:09:24+00:00"
+            "time": "2021-04-02T06:34:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
@@ -1243,16 +1243,16 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.9.31",
+            "version": "0.9.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.9.31"
+                "reference": "tags/0.9.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.31.zip",
-                "reference": "tags/0.9.31"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.32.zip",
+                "reference": "tags/0.9.32"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1263,7 +1263,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2020-11-06T10:01:56+00:00"
+            "time": "2021-04-02T06:35:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-tasks",
@@ -1385,16 +1385,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-calendar",
-            "version": "0.9.34",
+            "version": "0.9.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-calendar",
-                "reference": "tags/0.9.34"
+                "reference": "tags/0.9.35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.34.zip",
-                "reference": "tags/0.9.34"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.35.zip",
+                "reference": "tags/0.9.35"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1403,7 +1403,7 @@
             "extra": {
                 "installer-name": "CalendarWebclient"
             },
-            "time": "2021-03-02T12:34:58+00:00"
+            "time": "2021-04-01T11:14:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -1453,16 +1453,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.131",
+            "version": "0.9.132",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.131"
+                "reference": "tags/0.9.132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.131.zip",
-                "reference": "tags/0.9.131"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.132.zip",
+                "reference": "tags/0.9.132"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1472,7 +1472,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-03-30T09:13:25+00:00"
+            "time": "2021-04-02T08:24:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1731,16 +1731,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.136",
+            "version": "0.9.137",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.136"
+                "reference": "tags/0.9.137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.136.zip",
-                "reference": "tags/0.9.136"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.137.zip",
+                "reference": "tags/0.9.137"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1749,7 +1749,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-03-24T12:03:38+00:00"
+            "time": "2021-04-02T08:25:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.112",
+            "version": "2.2.113",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "004b5340922bd12de605d52682d10251d08f9578"
+                "reference": "3d86709417fc234c2152a3644dfaea807265bdef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/004b5340922bd12de605d52682d10251d08f9578",
-                "reference": "004b5340922bd12de605d52682d10251d08f9578",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/3d86709417fc234c2152a3644dfaea807265bdef",
+                "reference": "3d86709417fc234c2152a3644dfaea807265bdef",
                 "shasum": ""
             },
             "require": {
@@ -2112,7 +2112,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2021-03-30T13:20:27+00:00"
+            "time": "2021-04-01T05:58:00+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2200,16 +2200,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.4",
+            "version": "3.176.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1"
+                "reference": "bd3dc3d86c6c041b7eb843b808b5e7baabd41203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
-                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bd3dc3d86c6c041b7eb843b808b5e7baabd41203",
+                "reference": "bd3dc3d86c6c041b7eb843b808b5e7baabd41203",
                 "shasum": ""
             },
             "require": {
@@ -2281,7 +2281,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-03-30T18:17:07+00:00"
+            "time": "2021-04-01T18:14:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -2410,6 +2410,20 @@
                 "yawik",
                 "zend",
                 "zikula"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-14T11:07:16+00:00"
         },
@@ -4384,6 +4398,20 @@
                 "polyfill",
                 "portable"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -4454,6 +4482,20 @@
                 "portable",
                 "shim"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-22T09:19:47+00:00"
         },
         {
@@ -4521,6 +4563,20 @@
                 "portable",
                 "shim"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-22T09:19:47+00:00"
         },
         {
@@ -4584,6 +4640,20 @@
                 "portable",
                 "shim"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-22T09:19:47+00:00"
         },
         {
@@ -4643,24 +4713,119 @@
                 "portable",
                 "shim"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-07T16:49:33+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.20",
+            "version": "v5.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "7e950b6366d4da90292c2e7fa820b3c1842b965a"
+                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/7e950b6366d4da90292c2e7fa820b3c1842b965a",
-                "reference": "7e950b6366d4da90292c2e7fa820b3c1842b965a",
+                "url": "https://api.github.com/repos/symfony/process/zipball/313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
+                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1.3"
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.15"
             },
             "type": "library",
             "autoload": {
@@ -4687,7 +4852,21 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "time": "2021-01-27T09:09:26+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-27T10:15:41+00:00"
         },
         {
             "name": "tightenco/collect",
