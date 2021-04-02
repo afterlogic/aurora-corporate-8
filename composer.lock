@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83e07f5eedcf6806f6681755d761cd41",
+    "content-hash": "3000765c1d168267a7d1538fd7b4799e",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -1072,6 +1072,29 @@
                 "installer-name": "OEmbedFiles"
             },
             "time": "2021-03-23T18:24:02+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-office-document-editor",
+            "version": "0.9.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
+                "reference": "tags/0.9.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.14.zip",
+                "reference": "tags/0.9.14"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.9.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "OfficeDocumentEditor"
+            },
+            "time": "2021-04-02T07:17:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
