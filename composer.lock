@@ -488,16 +488,16 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.9.42",
+            "version": "0.9.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.9.42"
+                "reference": "tags/0.9.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.9.42.zip",
-                "reference": "tags/0.9.42"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.9.43.zip",
+                "reference": "tags/0.9.43"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -509,7 +509,7 @@
             "extra": {
                 "installer-name": "Files"
             },
-            "time": "2021-03-26T10:43:49+00:00"
+            "time": "2021-04-02T06:36:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
@@ -1075,16 +1075,16 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.9.14",
+            "version": "0.9.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.9.14"
+                "reference": "tags/0.9.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.14.zip",
-                "reference": "tags/0.9.14"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.15.zip",
+                "reference": "tags/0.9.15"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1094,7 +1094,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2021-04-02T07:17:35+00:00"
+            "time": "2021-04-02T13:34:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
