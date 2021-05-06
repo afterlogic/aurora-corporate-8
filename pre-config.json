@@ -100,9 +100,6 @@
 		"OverrideUserSettings": {
 			"Disabled": true
 		},
-		"SharedFiles": {
-			"Disabled": true
-		},
 		"Ios": {
 			"IncludePasswordInProfile": false
 		},
