@@ -223,16 +223,16 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.9.89",
+            "version": "0.9.90",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.9.89"
+                "reference": "tags/0.9.90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.89.zip",
-                "reference": "tags/0.9.89"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.90.zip",
+                "reference": "tags/0.9.90"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -242,7 +242,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2021-05-28T07:51:41+00:00"
+            "time": "2021-05-31T08:44:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
@@ -1408,16 +1408,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-calendar",
-            "version": "0.9.36",
+            "version": "0.9.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-calendar",
-                "reference": "tags/0.9.36"
+                "reference": "tags/0.9.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.36.zip",
-                "reference": "tags/0.9.36"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.37.zip",
+                "reference": "tags/0.9.37"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1426,7 +1426,7 @@
             "extra": {
                 "installer-name": "CalendarWebclient"
             },
-            "time": "2021-04-05T12:43:23+00:00"
+            "time": "2021-05-31T09:03:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
