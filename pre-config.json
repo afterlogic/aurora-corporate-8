@@ -119,6 +119,9 @@
 		"MobileAppsWebclient": {
 			"ShowMailServerUrlApp": false,
 			"ShowFilesServerUrlApp": false
+		},
+		"OfficeDocumentEditor": {
+			"Disabled": true
 		}
 	}
 }
