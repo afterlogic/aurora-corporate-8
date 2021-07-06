@@ -3,8 +3,6 @@ name: PHP Composer
 on:
   push:
     branches: [ master ]
-#   pull_request:
-#     branches: [ master ]
 
 jobs:
   build:
@@ -49,25 +47,14 @@ jobs:
     - name: Compile static files
       run: ./travis.sh -t build
       
-    - name: BUild a package
+    - name: Build a package
       run: ./travis.sh -t pack
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
-#     - name: Create test file
-#       run: echo "some text" > package.txt
-      
-    - name: Upaload package
+    - name: Upload package
       run: ./travis.sh -t upload
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-#       run: curl -v --ftp-create-dirs --retry 6 -T ${{ secrets.PRODUCT_NAME }}_${PRODUCT_VERSION}.zip  -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://afterlogic.com/
-    
-
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
