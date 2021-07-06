@@ -54,7 +54,7 @@ jobs:
       
     - name: Upaload package
 #       run: ./travis.sh -t upload
-      run: curl -v --ftp-create-dirs --retry 6 -T package.txt -u ${{FTP_USER}}:${{FTP_PASSWORD}} ftp://afterlogic.com/
+      run: curl -v --ftp-create-dirs --retry 6 -T package.txt -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://afterlogic.com/
     
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
