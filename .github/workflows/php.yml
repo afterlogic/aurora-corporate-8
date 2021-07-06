@@ -14,11 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: test
-      run: |
-          PRODUCT_VER=`cat VERSION`
-          echo ${{ PRODUCT_VER }}
-          echo ${ PRODUCT_VER }
+#     - name: test
+#       run: |
+#           PRODUCT_VER=`cat VERSION`
+#           echo ${{ PRODUCT_VER }}
+#           echo ${ PRODUCT_VER }
 
 #     - name: Validate composer.json and composer.lock
 #       run: composer validate --strict
@@ -33,30 +33,36 @@ jobs:
 #         restore-keys: |
 #           ${{ runner.os }}-php-
 
-#     - name: Setup PHP version
-#       uses: shivammathur/setup-php@v2
-#       with:
-#         php-version: 7.4
+    - name: Setup PHP version
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 7.4
 
-#     - name: Install Composer dependencies
-#       run: composer install
+    - name: Install Composer dependencies
+      run: composer install
 
-#     - name: Install NPM dependencies
-#       run: |
-#           chmod +x ./travis.sh
-#           ./travis.sh -t npm
+    - name: Install NPM dependencies
+      run: |
+          chmod +x ./travis.sh
+          ./travis.sh -t npm
           
-#     - name: Compile static files
-#       run: ./travis.sh -t build
+    - name: Compile static files
+      run: ./travis.sh -t build
       
-#     - name: BUild a package
-#       run: ./travis.sh -t pack
+    - name: BUild a package
+      run: ./travis.sh -t pack
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
 #     - name: Create test file
 #       run: echo "some text" > package.txt
       
-#     - name: Upaload package
-# #       run: ./travis.sh -t upload
+    - name: Upaload package
+      run: ./travis.sh -t upload
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 #       run: curl -v --ftp-create-dirs --retry 6 -T ${{ secrets.PRODUCT_NAME }}_${PRODUCT_VERSION}.zip  -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://afterlogic.com/
     
 
