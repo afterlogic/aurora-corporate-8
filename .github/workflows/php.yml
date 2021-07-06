@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
     - uses: actions/checkout@v2
@@ -21,13 +21,29 @@ jobs:
       id: composer-cache
       uses: actions/cache@v2
       with:
+        php-version: '7.4'
         path: vendor
         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
 
-    - name: Install dependencies
+    - name: Install Composer dependencies
       run: composer install
+
+    - name: Pre configuration
+      run: composer run pre-config
+
+    - name: Upload package
+      run: |
+          chmod +x ./travis.sh
+          ./travis.sh -t npm
+          ./travis.sh -t build
+          
+    - name: Install NPM dependencies
+      run: |
+          chmod +x ./travis.sh
+          ./travis.sh -t pack
+          ./travis.sh -t upload
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
