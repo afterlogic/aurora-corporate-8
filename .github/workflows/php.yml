@@ -14,6 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: test
+      run: echo ${{ secrets.TEST_VAR }}
+
 #     - name: Validate composer.json and composer.lock
 #       run: composer validate --strict
 
@@ -27,30 +30,27 @@ jobs:
 #         restore-keys: |
 #           ${{ runner.os }}-php-
 
-    - name: Setup PHP version
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: 7.4
+#     - name: Setup PHP version
+#       uses: shivammathur/setup-php@v2
+#       with:
+#         php-version: 7.4
 
-    - name: Install Composer dependencies
-      run: composer install
+#     - name: Install Composer dependencies
+#       run: composer install
 
-    - name: Pre configuration
-      run: composer run pre-config
-
-    - name: Install NPM dependencies
-      run: |
-          chmod +x ./travis.sh
-          ./travis.sh -t npm
+#     - name: Install NPM dependencies
+#       run: |
+#           chmod +x ./travis.sh
+#           ./travis.sh -t npm
           
-    - name: Compile static files
-      run: ./travis.sh -t build
+#     - name: Compile static files
+#       run: ./travis.sh -t build
       
-    - name: BUild a package
-      run: ./travis.sh -t pack
+#     - name: BUild a package
+#       run: ./travis.sh -t pack
 
-    - name: Upaload package
-      run: ./travis.sh -t upload
+#     - name: Upaload package
+#       run: ./travis.sh -t upload
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
