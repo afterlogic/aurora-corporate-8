@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: test
-      run: echo ${{ secrets.TEST_VAR }}
+#     - name: test
+#       run: echo ${{ secrets.TEST_VAR }}
 
 #     - name: Validate composer.json and composer.lock
 #       run: composer validate --strict
@@ -49,8 +49,13 @@ jobs:
 #     - name: BUild a package
 #       run: ./travis.sh -t pack
 
-#     - name: Upaload package
+    - name: Create test file
+      run: echo "some text" > package.txt
+      
+    - name: Upaload package
 #       run: ./travis.sh -t upload
+      run: curl -v --ftp-create-dirs --retry 6 -T package.txt -u ${{FTP_USER}}:${{FTP_PASSWORD}} ftp://afterlogic.com/
+    
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
