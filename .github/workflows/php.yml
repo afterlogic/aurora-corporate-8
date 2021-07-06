@@ -14,8 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-#     - name: test
-#       run: echo ${{ secrets.TEST_VAR }}
+    - name: test
+      run: |
+          PRODUCT_VER=`cat VERSION`
+          echo ${{ PRODUCT_VER }}
+          echo ${ PRODUCT_VER }
 
 #     - name: Validate composer.json and composer.lock
 #       run: composer validate --strict
@@ -49,12 +52,12 @@ jobs:
 #     - name: BUild a package
 #       run: ./travis.sh -t pack
 
-    - name: Create test file
-      run: echo "some text" > package.txt
+#     - name: Create test file
+#       run: echo "some text" > package.txt
       
-    - name: Upaload package
-#       run: ./travis.sh -t upload
-      run: curl -v --ftp-create-dirs --retry 6 -T package.txt -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://afterlogic.com/
+#     - name: Upaload package
+# #       run: ./travis.sh -t upload
+#       run: curl -v --ftp-create-dirs --retry 6 -T ${{ secrets.PRODUCT_NAME }}_${PRODUCT_VERSION}.zip  -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://afterlogic.com/
     
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
