@@ -635,15 +635,15 @@
         },
         {
             "name": "afterlogic/aurora-module-licensing",
-            "version": "0.10.0",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-licensing",
-                "reference": "tags/0.10.0"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-licensing/archive/0.10.0.zip"
+                "url": "https://github.com/afterlogic/aurora-module-licensing/archive/0.10.2.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -653,7 +653,7 @@
             "extra": {
                 "installer-name": "Licensing"
             },
-            "time": "2021-07-01T13:24:36+00:00"
+            "time": "2021-08-11T11:57:04+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail",
@@ -1310,15 +1310,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.11",
+            "version": "0.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.11"
+                "reference": "tags/0.10.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.12.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1328,7 +1328,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2021-08-11T08:41:39+00:00"
+            "time": "2021-08-11T10:07:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
