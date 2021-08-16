@@ -2106,16 +2106,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.40",
+            "version": "1.5.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "553d0f475ed6c8af615c96f05db13f3e49e04363"
+                "reference": "edba40235ef18aef0a46855dceac2d9077d8f2a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/553d0f475ed6c8af615c96f05db13f3e49e04363",
-                "reference": "553d0f475ed6c8af615c96f05db13f3e49e04363",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/edba40235ef18aef0a46855dceac2d9077d8f2a8",
+                "reference": "edba40235ef18aef0a46855dceac2d9077d8f2a8",
                 "shasum": ""
             },
             "require": {
@@ -2145,9 +2145,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.40"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.41"
             },
-            "time": "2021-07-29T11:21:04+00:00"
+            "time": "2021-08-13T08:39:09+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
