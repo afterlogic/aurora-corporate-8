@@ -1948,15 +1948,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.25",
+            "version": "0.10.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.25"
+                "reference": "tags/0.10.27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.25.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.27.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1966,7 +1966,7 @@
             "extra": {
                 "installer-name": "RocketChatWebclient"
             },
-            "time": "2021-10-05T09:27:09+00:00"
+            "time": "2021-10-05T12:37:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-session-timeout",
