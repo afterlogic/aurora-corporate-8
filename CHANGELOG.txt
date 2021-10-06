@@ -1,5 +1,5 @@
 [9.1.0]
-[+] Rocket.Chat integration
+[+] Rocket.Chat integration (Aurora Corporate / Aurora Files only)
 [*] Corrected issues with user signup on cPanel
 [*] Various bugfixes
 
