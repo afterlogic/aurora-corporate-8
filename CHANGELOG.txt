@@ -1,3 +1,8 @@
+[9.1.0]
+[+] Rocket.Chat integration
+[*] Corrected issues with user signup on cPanel
+[*] Various bugfixes
+
 [9.0.1]
 [+] Web-based migration script from v8
 [*] Fixed missing Files settings in admin panel
