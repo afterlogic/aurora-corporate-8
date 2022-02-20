@@ -196,15 +196,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -215,7 +215,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-02-16T07:01:41+00:00"
+            "time": "2022-02-18T13:01:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -657,15 +657,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.10.65",
+            "version": "0.10.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.10.65"
+                "reference": "tags/0.10.66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.65.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.10.66.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -676,7 +676,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2022-02-15T09:02:38+00:00"
+            "time": "2022-02-18T12:50:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-change-password-poppassd-extended-plugin",
@@ -1124,15 +1124,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.12",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1145,7 +1145,7 @@
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2022-01-31T13:58:45+00:00"
+            "time": "2022-02-18T13:27:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
