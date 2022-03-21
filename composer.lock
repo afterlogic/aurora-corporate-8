@@ -1035,15 +1035,15 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.10.5"
+                "reference": "tags/0.10.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.6.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1053,7 +1053,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2022-01-27T08:00:35+00:00"
+            "time": "2022-03-21T12:29:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
@@ -1218,15 +1218,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.32",
+            "version": "0.10.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.32"
+                "reference": "tags/0.10.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.32.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.33.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1237,7 +1237,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2022-03-21T08:11:06+00:00"
+            "time": "2022-03-21T12:48:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-tasks",
@@ -1397,15 +1397,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.11",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.11"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1415,19 +1415,19 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-03-18T11:26:44+00:00"
+            "time": "2022-03-21T12:16:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.40",
+            "version": "0.10.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.40"
+                "reference": "tags/0.10.41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.40.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.41.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1437,7 +1437,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-03-18T11:25:37+00:00"
+            "time": "2022-03-21T10:27:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1554,15 +1554,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.19",
+            "version": "0.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.20.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1572,7 +1572,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-03-18T08:43:35+00:00"
+            "time": "2022-03-21T12:17:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -1685,15 +1685,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.45",
+            "version": "0.10.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.45"
+                "reference": "tags/0.10.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.45.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.46.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -1702,7 +1702,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2022-03-21T07:54:05+00:00"
+            "time": "2022-03-21T12:26:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
