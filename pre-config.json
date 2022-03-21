@@ -123,6 +123,12 @@
 		},
 		"OfficeDocumentEditor": {
 			"Disabled": true
+		},
+		"PushNotificator": {
+			"Disabled": true
+		},
+		"CoreLiteUsers": {
+			"Disabled": true
 		}
 	}
 }
