@@ -1218,15 +1218,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.40",
+            "version": "0.10.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.40"
+                "reference": "tags/0.10.41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.40.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.41.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1237,7 +1237,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2022-03-28T08:05:12+00:00"
+            "time": "2022-03-28T10:30:17+00:00"
         },
         {
             "name": "afterlogic/aurora-module-tasks",
@@ -1310,15 +1310,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.38",
+            "version": "0.10.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.39.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1328,7 +1328,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-03-28T07:44:37+00:00"
+            "time": "2022-03-28T10:04:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
@@ -1554,15 +1554,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.22",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.22"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1572,7 +1572,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-03-28T07:56:54+00:00"
+            "time": "2022-03-28T10:29:50+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
