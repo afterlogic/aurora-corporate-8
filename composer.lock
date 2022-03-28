@@ -196,15 +196,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.53",
+            "version": "0.10.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.53"
+                "reference": "tags/0.10.54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.53.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.54.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -215,7 +215,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-03-24T11:32:35+00:00"
+            "time": "2022-03-25T10:25:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1218,15 +1218,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.37",
+            "version": "0.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.37"
+                "reference": "tags/0.10.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.37.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.40.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1237,7 +1237,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2022-03-24T13:34:38+00:00"
+            "time": "2022-03-28T08:05:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-tasks",
@@ -1310,15 +1310,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.36",
+            "version": "0.10.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.36"
+                "reference": "tags/0.10.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.36.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.38.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1328,7 +1328,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-03-23T09:24:29+00:00"
+            "time": "2022-03-28T07:44:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
@@ -1397,15 +1397,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.13",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.13"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1415,7 +1415,7 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-03-21T12:16:09+00:00"
+            "time": "2022-03-25T08:51:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -1554,15 +1554,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.21",
+            "version": "0.10.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.21"
+                "reference": "tags/0.10.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.21.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.22.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1572,7 +1572,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-03-23T06:12:10+00:00"
+            "time": "2022-03-28T07:56:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -2037,16 +2037,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "3.0.35",
+            "version": "3.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "b5d0e4dd687d2c496dfc7d0509c922929cd1db5c"
+                "reference": "7b1b45bd3a32327e050aa758dec22b3e12a90fcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/b5d0e4dd687d2c496dfc7d0509c922929cd1db5c",
-                "reference": "b5d0e4dd687d2c496dfc7d0509c922929cd1db5c",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/7b1b45bd3a32327e050aa758dec22b3e12a90fcd",
+                "reference": "7b1b45bd3a32327e050aa758dec22b3e12a90fcd",
                 "shasum": ""
             },
             "require": {
@@ -2076,9 +2076,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/3.0.35"
+                "source": "https://github.com/afterlogic/dav/tree/3.0.38"
             },
-            "time": "2022-03-24T08:59:07+00:00"
+            "time": "2022-03-28T08:04:38+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
