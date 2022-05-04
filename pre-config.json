@@ -109,6 +109,8 @@
 		},
 		"Contacts": {
 			"ImportContactsLink": "https://afterlogic.com/docs/aurora-corporate-8/frequently-asked-questions/importing-contacts"
+			"AllowAddressBooksManagement": true,
+			"AllowEditTeamContactsByTenantAdmins": true
 		},
 		"S3Filestorage": {
 			"Disabled": true
