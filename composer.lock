@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed2886315735dead1250f04645fae9db",
+    "content-hash": "c88db671d210178d027f10faf78d47b0",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -2172,26 +2172,77 @@
             "time": "2021-11-15T06:14:07+00:00"
         },
         {
-            "name": "aws/aws-sdk-php",
-            "version": "3.178.6",
+            "name": "aws/aws-crt-php",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0aa83b522d5ffa794c02e7411af87a0e241a3082"
+                "url": "https://github.com/awslabs/aws-crt-php.git",
+                "reference": "3942776a8c99209908ee0b287746263725685732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0aa83b522d5ffa794c02e7411af87a0e241a3082",
-                "reference": "0aa83b522d5ffa794c02e7411af87a0e241a3082",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/3942776a8c99209908ee0b287746263725685732",
+                "reference": "3942776a8c99209908ee0b287746263725685732",
                 "shasum": ""
             },
             "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|^5.4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "AWS SDK Common Runtime Team",
+                    "email": "aws-sdk-common-runtime@amazon.com"
+                }
+            ],
+            "description": "AWS Common Runtime for PHP",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "crt",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/awslabs/aws-crt-php/issues",
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.2"
+            },
+            "time": "2021-09-03T22:57:30+00:00"
+        },
+        {
+            "name": "aws/aws-sdk-php",
+            "version": "3.222.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "22fcdfcc7ed0f267512aa5c38bc00c12eaed51b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/22fcdfcc7ed0f267512aa5c38bc00c12eaed51b6",
+                "reference": "22fcdfcc7ed0f267512aa5c38bc00c12eaed51b6",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-crt-php": "^1.0.2",
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
-                "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0",
+                "guzzlehttp/guzzle": "^5.3.3 || ^6.2.1 || ^7.0",
                 "guzzlehttp/promises": "^1.4.0",
-                "guzzlehttp/psr7": "^1.7.0",
+                "guzzlehttp/psr7": "^1.7.0 || ^2.1.1",
                 "mtdowling/jmespath.php": "^2.6",
                 "php": ">=5.5"
             },
@@ -2206,7 +2257,7 @@
                 "ext-sockets": "*",
                 "nette/neon": "^2.3",
                 "paragonie/random_compat": ">= 2",
-                "phpunit/phpunit": "^4.8.35|^5.4.3",
+                "phpunit/phpunit": "^4.8.35 || ^5.6.3",
                 "psr/cache": "^1.0",
                 "psr/simple-cache": "^1.0",
                 "sebastian/comparator": "^1.2.3"
@@ -2257,9 +2308,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.19"
             },
-            "time": "2021-04-19T18:13:17+00:00"
+            "time": "2022-05-24T18:16:51+00:00"
         },
         {
             "name": "composer/installers",
