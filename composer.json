@@ -73,7 +73,6 @@
 		"afterlogic/aurora-module-webclient-settings": "~0.10.0",
 		"afterlogic/aurora-module-webclient-standard-login-form": "~0.10.0",
 		"afterlogic/aurora-module-mobile-webclient-standard-login-form": "~0.10.0",
-		"afterlogic/aurora-module-eav-object-viewer": "~0.10.0",
 		"afterlogic/aurora-module-oembed-files": "~0.10.0",
 		"afterlogic/aurora-module-files-zipfolder": "~0.10.0",
 		"afterlogic/aurora-module-mail-multi-accounts-plugin": "~0.10.0",
@@ -97,7 +96,6 @@
 		"afterlogic/aurora-module-corporatefiles": "~0.10.0",
 		"afterlogic/aurora-module-webclient-outlook-sync": "~0.10.0",
 		
-		"afterlogic/aurora-module-webclient-external-clients-login-form": "~0.10.0",
 		"afterlogic/aurora-module-two-factor-auth": "~0.10.0",
 		
 		"afterlogic/aurora-module-override-user-settings": "~0.10.0",
