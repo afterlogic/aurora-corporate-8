@@ -1310,15 +1310,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.52",
+            "version": "0.10.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.52"
+                "reference": "tags/0.10.53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.52.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.53.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1328,7 +1328,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-08-19T08:32:39+00:00"
+            "time": "2022-08-22T09:54:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
