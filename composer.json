@@ -96,6 +96,7 @@
 		"afterlogic/aurora-module-team-contacts": "~0.10.0",
 		"afterlogic/aurora-module-corporatefiles": "~0.10.0",
 		"afterlogic/aurora-module-webclient-outlook-sync": "~0.10.0",
+		"afterlogic/aurora-module-webclient-mail-signup": "~0.10.0",
 		
 		"afterlogic/aurora-module-two-factor-auth": "~0.10.0",
 		

@@ -59,6 +59,9 @@
 		"CpanelIntegrator": {
 			"Disabled": true
 		},
+		"MailSignup": {
+			"Disabled": true
+		},
 		"MailSaveMessageAsPdfPlugin": {
 			"Disabled": true
 		},
