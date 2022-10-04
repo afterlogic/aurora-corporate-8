@@ -25,4 +25,8 @@ include_once 'system/autoload.php';
     throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
     });
     
-    \Afterlogic\DAV\Server::getInstance()->exec();
+$server = \Afterlogic\DAV\Server::getInstance();
+$server->setBaseUri(
+	str_replace($_SERVER['DOCUMENT_ROOT'], '', $_SERVER['SCRIPT_FILENAME'])
+);
+$server->exec();
