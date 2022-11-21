@@ -138,6 +138,9 @@
 		},
 		"MailScheduledMessages": {
 			"Disabled": true
+		},
+		"StandardResetPassword": {
+			"Disabled": true
 		}
 	}
 }
