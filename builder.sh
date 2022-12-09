@@ -64,6 +64,16 @@ if [ "$TASK" = "build-admin" ]; then
 	fi
 fi
 
+if [ "$TASK" = "watch-js" ]; then
+	cd ${DIR}
+	gulp js:watch
+fi
+
+if [ "$TASK" = "watch-styles" ]; then
+	cd ${DIR}
+	gulp styles:watch --themes Default,DefaultDark,DeepForest,Funny,Sand
+fi
+
 if [ "$TASK" = "pack" ]; then
 	echo 'deny from all' > data/.htaccess
 	
