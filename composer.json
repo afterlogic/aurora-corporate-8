@@ -42,7 +42,7 @@
 		"oomphinc/composer-installers-extender": "^2.0",
 		
 		"afterlogic/aurora-framework": "~0.10.0",
-		"afterlogic/aurora-dev-tools": "~0.9.0",
+		
 		
 		"afterlogic/aurora-module-admin-auth": "~0.10.0",
 		"afterlogic/aurora-module-webclient-adminpanel": "~0.10.0",
@@ -139,6 +139,8 @@
 		"afterlogic/dav": "~4.0.0",
 		"afterlogic/aurora-module-mail-scheduled-messages": "~0.10.0",
 		"afterlogic/aurora-module-standard-reset-password": "~0.10.0"
+
+
 	},
 	"scripts": {
 		"post-install-cmd": [
@@ -171,5 +173,8 @@
 			"system/": ["type:aurora-framework"],
 			"dev/": ["type:aurora-dev-tools"]
 		}
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^1.9"
 	}
 }
