@@ -1468,15 +1468,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.56",
+            "version": "0.10.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.56"
+                "reference": "tags/0.10.57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.56.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.57.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1492,7 +1492,7 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:58:18+00:00"
+            "time": "2023-01-13T13:40:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-reset-password",
@@ -2041,15 +2041,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.92",
+            "version": "0.10.93",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.92"
+                "reference": "tags/0.10.93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.92.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.93.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -2063,7 +2063,7 @@
                     "/"
                 ]
             },
-            "time": "2022-12-28T08:58:11+00:00"
+            "time": "2023-01-11T15:28:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2527,16 +2527,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.39",
+            "version": "4.0.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "13f22e86234a1c1b2ef83bf9eb0c3e45c0310508"
+                "reference": "93e65ad62cae9104203b00ff4e72aae59318e25d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/13f22e86234a1c1b2ef83bf9eb0c3e45c0310508",
-                "reference": "13f22e86234a1c1b2ef83bf9eb0c3e45c0310508",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/93e65ad62cae9104203b00ff4e72aae59318e25d",
+                "reference": "93e65ad62cae9104203b00ff4e72aae59318e25d",
                 "shasum": ""
             },
             "require": {
@@ -2566,9 +2566,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.39"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.40"
             },
-            "time": "2023-01-11T13:06:58+00:00"
+            "time": "2023-01-13T12:30:16+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2713,16 +2713,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.257.0",
+            "version": "3.257.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "26091e15fbc57e93f939ddfe0410161cd9fdbd54"
+                "reference": "a46e5cd59a411a5c929f030736738e4d81d52c62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/26091e15fbc57e93f939ddfe0410161cd9fdbd54",
-                "reference": "26091e15fbc57e93f939ddfe0410161cd9fdbd54",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a46e5cd59a411a5c929f030736738e4d81d52c62",
+                "reference": "a46e5cd59a411a5c929f030736738e4d81d52c62",
                 "shasum": ""
             },
             "require": {
@@ -2801,9 +2801,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.1"
             },
-            "time": "2023-01-12T19:23:11+00:00"
+            "time": "2023-01-13T19:29:27+00:00"
         },
         {
             "name": "composer/installers",
