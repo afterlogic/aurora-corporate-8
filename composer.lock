@@ -170,15 +170,15 @@
         },
         {
             "name": "afterlogic/aurora-module-calendar",
-            "version": "0.10.46",
+            "version": "0.10.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-calendar",
-                "reference": "tags/0.10.46"
+                "reference": "tags/0.10.47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-calendar/archive/0.10.46.zip"
+                "url": "https://github.com/afterlogic/aurora-module-calendar/archive/0.10.47.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -194,7 +194,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-11T06:23:31+00:00"
+            "time": "2023-01-16T13:39:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-calendar-meetings-plugin",
