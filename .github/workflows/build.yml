@@ -31,4 +31,6 @@ jobs:
           cd ./modules/AdminPanelWebclient/vue
           node -v
           npm -v
+          export SET NODE_OPTIONS=--openssl-legacy-provider
           npm run build-production
+          unset NODE_OPTIONS
