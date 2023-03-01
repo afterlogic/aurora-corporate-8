@@ -29,5 +29,5 @@ jobs:
     - name: Compile static files
       run: |
           cd ./modules/AdminPanelWebclient/vue
-          ln -s "$(which node)" /usr/local/node
+          sudo ln -s "$(which node)" /usr/local/node
           npm run build-production
