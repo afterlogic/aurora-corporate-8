@@ -2,15 +2,14 @@ name: PHP Composer
 
 on:
   push:
-    branches: [ master ]
+    branches: [ debug_action ]
 
 jobs:
   build:
     runs-on: ubuntu-20.04
-    if: "startsWith(github.event.head_commit.message, 'version')"
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Setup PHP version
       uses: shivammathur/setup-php@v2
@@ -27,73 +26,3 @@ jobs:
           
     - name: Compile static files
       run: ./builder.sh -t build
-      
-    - name: Build a package
-      run: ./builder.sh -t pack
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-
-    - name: Upload main package
-      run: ./builder.sh -t upload
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-
-    - name: PLESK - Set permission for package builder
-      run: chmod +x ./builder-plesk.sh
-          
-    - name: PLESK - Compile static files 
-      run: ./builder-plesk.sh -t build
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        PLESK_PRODUCT_TITLE: "Aurora Corporate"
-        PLESK_PRODUCT_FULLTITLE: "Afterlogic Aurora Corporate"
-        PLESK_PRODUCT_WEBSITE: "https://afterlogic.com/aurora"
-        PLESK_PRODUCT_DOWNLOAD: "https://afterlogic.com/download/aurora"
-
-    - name: PLESK - Generate changelog
-      run: ./builder-plesk.sh -t log
-      
-    - name: PLESK - Build a package
-      run: ./builder-plesk.sh -t zip
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-
-    - name: PLESK - Upload plesk package
-      run: ./builder-plesk.sh -t upload
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        
-    - name: Build documentation
-      run: ./builder.sh -t build-documentation
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-
-    - name: DEMO - prepare demo package
-      run: ./builder.sh -t prepare-demo
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-
-    - name: DEMO - build demo static files
-      run: ./builder.sh -t build
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-
-    - name: DEMO - build demo package
-      run: ./builder.sh -t pack
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-
-    - name: DEMO - upload demo package
-      run: ./builder.sh -t upload-demo
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
