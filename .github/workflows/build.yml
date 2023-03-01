@@ -26,7 +26,9 @@ jobs:
           ./builder.sh -t npm
           
     - name: Compile static files
-      run: ./builder.sh -t build
+      run: |
+          sudo ln -s "$(which node)" /usr/bin/node
+          ./builder.sh -t build
       
     - name: Build a package
       run: ./builder.sh -t pack
