@@ -29,8 +29,5 @@ jobs:
     - name: Compile static files
       run: |
           cd ./modules/AdminPanelWebclient/vue
-          node -v
-          npm -v
-          export SET NODE_OPTIONS=--openssl-legacy-provider
+          ln -s /usr/bin/nodejs /usr/bin/node
           npm run build-production
-          unset NODE_OPTIONS
