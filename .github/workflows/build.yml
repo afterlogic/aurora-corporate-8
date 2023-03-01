@@ -24,7 +24,7 @@ jobs:
           chmod +x ./builder.sh
           cd ./modules/AdminPanelWebclient/vue
           npm install
-		      npm install -g @quasar/cli
+          npm install -g @quasar/cli
           
     - name: Compile static files
       run: |
