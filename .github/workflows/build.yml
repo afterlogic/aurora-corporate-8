@@ -22,7 +22,13 @@ jobs:
     - name: Install NPM dependencies
       run: |
           chmod +x ./builder.sh
-          ./builder.sh -t npm
+          cd ./modules/AdminPanelWebclient/vue
+          npm install
+		      npm install -g @quasar/cli
           
     - name: Compile static files
-      run: ./builder.sh -t build
+      run: |
+          cd ./modules/AdminPanelWebclient/vue
+          node -v
+          npm -v
+          npm run build-production
