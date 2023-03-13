@@ -62,6 +62,12 @@
 		"MailSignup": {
 			"Disabled": true
 		},
+		"MailSignupDirectadmin": {
+			"Disabled": true
+		},
+		"MailSignupPlesk": {
+			"Disabled": true
+		},
 		"MailSaveMessageAsPdfPlugin": {
 			"Disabled": true
 		},
