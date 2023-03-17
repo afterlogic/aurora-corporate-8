@@ -20,7 +20,9 @@ jobs:
       run: composer install
  
     - name: Build documentation
-      run: ./builder.sh -t build-documentation
+      run: |
+          chmod +x ./builder.sh
+          ./builder.sh -t build-documentation
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
         FTP_USER: ${{ secrets.FTP_USER }}
