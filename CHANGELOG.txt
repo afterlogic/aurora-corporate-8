@@ -1,3 +1,78 @@
+[9.7.3]
+[+] Autoresponder now supports enabling/disabling it by schedule
+[+] External system password encryption in password change and signup modules
+[*] Fixed various issues with recurring tasks and events
+[*] Fixed issue with displaying multiline text in event ICS preview
+[*] Fixed issue with importing ICS containing international characters
+[*] Fixed issues with deprecated code in Nextcloud integration app
+[*] Docker images updated to correct issues with DAV access
+[*] Outlook Sync documentation revised (Aurora only)
+[*] Various fixes and improvements
+
+[9.7.2]
+[+] Added password reset support for password change via POPPASSD
+[+] Added multi-line support for Location field in Calendar
+[+] Added support for path-style requests in S3 file storage modules
+[*] Fixed issue with renaming folders when IgnoreImapSubscription was enabled
+[*] Corrected issue with cPanel integration
+[*] Various bugfixes and improvements
+
+[9.7.1]
+[+] Event appointments can now be added via CalDAV (WebMail Pro / Aurora Corporate)
+[+] In Files, selection is now cleared when clicking empty area
+[+] Removing logs older than N days is now configurable, RemoveOldLogsDays in config.json file
+[+] Added PHP-FPM in Debian/Ubuntu packages in addition to PHP as Apache module
+[+] Fastpanel integration
+[*] Updated various JavaScript libraries used as dependencies, known vulnerabilities removed
+[*] Code refactoring, PhpStan level 2 compliance maintained
+[*] Device management in 2FA module rewritten
+[*] Fixed various data encryption issues
+[*] Corrected issues with accepting invitations from Google Calendar (WebMail Pro / Aurora Corporate)
+[*] Fixed issues with displaying larger messages in Notes
+[*] Corrected issues with calendar sharing (Aurora Corporate)
+[*] Redesigned reminders functionality in shared calendars (Aurora Corporate)
+[*] Corrected issue with navigating in Month view of calendar (WebMail Pro / Aurora Corporate)
+[*] Fixed issues with recurring tasks length (WebMail Pro / Aurora Corporate)
+[*] Fixed DAV browser plugin incompatibility with PHP 8.2
+[*] Improved pasting from MS Excel, with borders retained
+[*] Corrected an issue with DAV update in cPanel installer (WebMail only)
+[*] Corrected various issues with exporting contacts
+[*] Grouping contacts improved, contacts from custom address books can now be included
+[*] Files status bar redesigned
+[*] Quasar 2 and VueJS 3 are now used in admin panel
+[*] German translation overhaul
+[*] Various fixes and improvements
+
+[9.7.0]
+[+] Password reset feature added for cPanel
+[+] User signup added for Plesk and DirectAdmin
+[+] Emojis support added in Sieve filters
+[+] Default reminders for calendar events
+[+] Lifetime option added to public links in files storage
+[+] RocketChat 5.* full support (Aurora only)
+[+] Flexible RocketChat account name mapping
+[*] Tenant-level adminpanel interface rewritten
+[*] Fixed DAV compatibility issue with PHP 8.2
+[*] Fixed expanding attachments in messages opened in separate window/tab
+[*] Fixed issue with custom message sorting
+[*] Fixed issue with ReCAPTCHA missing on signup page
+[*] Fixed issue with DAV access in some configurations
+[*] Fixed issue with password encryption for RocketChat (Aurora only)
+[*] Debian packages configuration revised for compatibility
+[*] Fixed issues with DAV in Debian packages
+[*] IframeApp module refactored
+[*] Miscellaneous bugfixes
+
+[9.6.1]
+[+] Tenant adminpanel rewritten
+[+] EnableFailedLoginBlock setting now affects superadmin user as well
+[*] Fixed LDAP change password issue with PHP 8.1
+[*] Corrected an issue with creating Mail.config.json file
+[*] Fixed issue with scrollbar in log viewer
+[*] Updated the Chinese-Simplified translation
+[*] Updated the Dutch translation
+[*] Various bugfixes
+
 [9.6.0]
 [+] Storing PGP keys in team contacts
 [+] Dark theme

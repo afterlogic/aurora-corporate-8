@@ -28,59 +28,52 @@ We're assuming that you wish to install the latest stable version of the product
 git clone https://github.com/afterlogic/aurora-corporate-8.git INSTALL_FOLDER_PATH
 ```
 - change modules' versions in `composer.json` file to "dev-master"
-- adjust `composer.json` configuration file so that sources are preferred:
-```
-{
-	"config": {
-		"minimum-stability": "dev",
-		"preferred-install": {
-			"afterlogic/*": "source"
-		}
-	}.......
-```
 
-2. `composer.phar` file is available in repository, but you can download its latest version 2 from [`https://getcomposer.org/composer.phar`](https://getcomposer.org/composer.phar)
+1. `composer.phar` file is available in repository, but you can download its latest version 2 from [`https://getcomposer.org/composer.phar`](https://getcomposer.org/composer.phar)
 
-3. Start the composer installation process by running the following from the command line:
+2. Start the composer installation process by running the following from the command line:
     ```bash
     php composer.phar install
     ```
 
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script under the same user web server runs under.
 
-4. Next, you need to build static files for the current module set.
-
-      First of all, install all npm modules via
+3. Next, you need to build static files for the current module set.
+      First of all, install all npm dependencies via
       ```bash
       npm install
       ```
-      and install gulp-cli module globaly 
-      ```bash
-      npm install --global gulp-cli
-      ```
-      then install the modules required for adminpanel to work 
+      then install the dependencies required for adminpanel to work 
       ```bash
       cd modules/AdminPanelWebclient/vue
       npm install
       npm install -g @quasar/cli
       ```
+	  or you can execute all the actions mentioned above by using the following command
+	  ```
+	  chmod +x builder.sh
+	  ./builder.sh -t npm
+	  ```
 
-5. Now you can build static files. Run the following commands in main directory
+4. Now you can build static files. Run the following commands in main directory
       ```bash
-      gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand
-      ```
-      ```bash
-      gulp js:min
+	  npm run styles:build --themes=Default,DefaultDark,DeepForest,Funny,Sand
+      npm run js:build
+	  npm run js:min
       ```
       and build adminpanel 
       ```bash
       cd modules/AdminPanelWebclient/vue
       npm run build-production
       ```
+	  or use all-in-one command
+	  ```
+	  ./builder.sh -t build
+	  ```
   
-6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
+5. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
 
-7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora/configuration).
+6. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora/configuration).
 
 **IMPORTANT:**
 

@@ -1,0 +1,10 @@
+parameters:
+	editorUrl: 'code -r -g %%file%%:%%line%%'
+	level: 0
+	paths:
+		- modules
+		- system
+	excludePaths:
+		- modules/OAuthIntegratorWebclient/Classes/OAuthClient
+		- modules/TwoFactorAuth/Classes/WebAuthn
+		- modules/AdminPanelWebclient/vue/node_modules

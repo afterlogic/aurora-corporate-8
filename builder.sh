@@ -7,7 +7,8 @@ NC='\033[0m' # No Color
 
 DIR=$(cd `dirname $0` && pwd)
 DIR_VUE="${DIR}/modules/AdminPanelWebclient/vue"
-TASK="build"
+
+TASK="list"
 
 POSITIONAL=()
 while [[ $# -gt 0 ]]
@@ -28,12 +29,33 @@ esac
 done
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
+getThemeList () 
+{
+	LIST=$(find ${DIR}/modules/CoreWebclient/styles/themes -maxdepth 1 -mindepth 1 -type d -printf '%f,')
+	echo ${LIST::-1}
+}
+
+if [ "$TASK" = "list" ]; then
+	printf "The script can be used to intall NPM dependencies and build required static files. See the full list of the supported commands:
+  - npm
+  - build
+    - build-main
+    - build-admin
+  - watch-js
+  - watch-styles
+  - pack
+  - upload
+  - prepare-demo
+  - upload-demo
+  - build-documentation
+  - analyze
+"
+fi
+
 echo TASK: "$TASK"
 
 if [ "$TASK" = "npm" ]; then
 	cd ${DIR}
-	
-	npm install -g gulp-cli
 	npm install
 
 	if [ -d "$DIR_VUE" ]; then
@@ -41,7 +63,6 @@ if [ "$TASK" = "npm" ]; then
 		npm install
 		npm install -g @quasar/cli
 	fi
-
 fi
 
 if [ "$TASK" = "build" ]; then
@@ -51,10 +72,10 @@ fi
 
 if [ "$TASK" = "build-main" ]; then
 	cd ${DIR}
-	gulp styles --themes Default,DefaultDark,DeepForest,Funny,Sand --build a
-	gulp js:build --build a
-	gulp js:min --build a
-	#gulp test
+	THEME_LIST="$(getThemeList)"
+	npm run styles:build --themes=${THEME_LIST}
+	npm run js:build
+	npm run js:min
 fi
 
 if [ "$TASK" = "build-admin" ]; then
@@ -62,6 +83,19 @@ if [ "$TASK" = "build-admin" ]; then
 		cd ${DIR_VUE}
 		npm run build-production
 	fi
+fi
+
+if [ "$TASK" = "watch-js" ]; then
+	cd ${DIR}
+	printf "${GREEN}Running watcher for ${RED}JS files\n"$NC
+	npm run js:watch
+fi
+
+if [ "$TASK" = "watch-styles" ]; then
+	cd ${DIR}
+	THEME_LIST="$(getThemeList)"
+	printf "${GREEN}Running watcher for themes: ${RED}${THEME_LIST}\n"$NC
+	npm run styles:watch --themes ${THEME_LIST}
 fi
 
 if [ "$TASK" = "pack" ]; then
@@ -76,7 +110,7 @@ if [ "$TASK" = "pack" ]; then
 	
 	printf $GREEN"CREATING ZIP FILE: ${RED}${PRODUCT_NAME}_${PRODUCT_VERSION}.zip\n"$NC
 	
-	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules data/.htaccess modules static system vendor dev adminpanel ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock gulpfile.js pre-config.json -x **/*.bak *.git* *node_modules/\*
+	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules data/.htaccess modules static system vendor dev adminpanel ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock pre-config.json -x **/*.bak *.git* *node_modules/\*
 fi
 
 if [ "$TASK" = "upload" ]; then
@@ -105,8 +139,11 @@ if [ "$TASK" = "prepare-demo" ]; then
 		HAS_DEMO=`cat composer.json | grep -o --max-count=1 demo-mode-plugin`
 
 		if [ "${HAS_DEMO}" = "" ]; then
-			sed -i '/"require": {/r extra_modules.txt' composer.json
+			sed -i '/"afterlogic\/aurora-framework".*/r extra_modules.txt' composer.json
 		fi
+
+		# temporarily removing plesk signup module
+		sed -i '/aurora-module-mail-signup-plesk/d' composer.json
 		
 		php composer.phar update afterlogic/aurora-module-demo-mode-plugin
 	else
@@ -124,4 +161,36 @@ if [ "$TASK" = "upload-demo" ]; then
 	echo UPLOAD ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
 	curl -v --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/demo/
+fi
+
+if [ "$TASK" = "build-documentation" ]; then
+	cd ${DIR}
+
+	PRODUCT_VERSION=`cat VERSION`
+	DOCUMENTATION_FILE=${PRODUCT_NAME}_${PRODUCT_VERSION}_apigen.zip
+
+	printf "${GREEN}BUILDING DOCUMENTATION\n"$NC
+
+	cd ${DIR}/dev/docs
+	./build-apigen.sh
+	# ./build-phpdoc.sh
+	
+	printf "${GREEN}PACKING DOCUMENTATION: ${RED}${DOCUMENTATION_FILE}\n"$NC
+	cd ${DIR}/docs/api
+	echo $(cd `dirname $0` && pwd)
+	zip -rq ${DOCUMENTATION_FILE} *
+
+	curl -v --ftp-create-dirs --retry 6 -T ${DOCUMENTATION_FILE} -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
+fi
+
+if [ "$TASK" = "analyze" ]; then
+	cd ${DIR}
+
+	vendor/bin/phpstan analyse | grep '[ERROR]' -F
+	
+	# if [ $? != 0 ]
+    # then
+        printf "\r\n To get more details on the found errors please run:\r\n "$YELLOW"vendor/bin/phpstan analyze"$NC"\r\n"
+        exit 1
+    # fi
 fi
