@@ -202,15 +202,15 @@
         },
         {
             "name": "afterlogic/aurora-module-calendar-meetings-plugin",
-            "version": "0.10.45",
+            "version": "0.10.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-calendar-meetings-plugin",
-                "reference": "tags/0.10.45"
+                "reference": "tags/0.10.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-calendar-meetings-plugin/archive/0.10.45.zip"
+                "url": "https://github.com/afterlogic/aurora-module-calendar-meetings-plugin/archive/0.10.46.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -226,7 +226,7 @@
                     "/"
                 ]
             },
-            "time": "2023-09-27T09:08:29+00:00"
+            "time": "2023-10-12T08:27:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
@@ -1834,15 +1834,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.114",
+            "version": "0.10.115",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.114"
+                "reference": "tags/0.10.115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.114.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.115.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1857,7 +1857,7 @@
                     "/"
                 ]
             },
-            "time": "2023-10-09T13:03:03+00:00"
+            "time": "2023-10-17T09:23:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -2239,15 +2239,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-tnef-plugin",
-            "version": "0.10.10",
+            "version": "0.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin",
-                "reference": "tags/0.10.10"
+                "reference": "tags/0.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin/archive/0.10.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail-tnef-plugin/archive/0.10.11.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -2263,7 +2263,7 @@
                     "/"
                 ]
             },
-            "time": "2023-09-18T15:35:10+00:00"
+            "time": "2023-10-16T17:05:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-zip-plugin",
