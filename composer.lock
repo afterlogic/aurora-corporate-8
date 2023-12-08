@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27b13c20263c9b551f2075cf5ae31c01",
+    "content-hash": "46a87d4cb68068808fc26b1218e32e88",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.114",
+            "version": "0.10.115",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.114"
+                "reference": "tags/0.10.115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.114.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.115.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-10-26T16:43:07+00:00"
+            "time": "2023-12-04T07:58:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activeserver",
@@ -230,15 +230,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.100",
+            "version": "0.10.101",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.100"
+                "reference": "tags/0.10.101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.100.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.101.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1417,15 +1417,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.10.21",
+            "version": "0.10.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.10.21"
+                "reference": "tags/0.10.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.21.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.22.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1441,7 +1441,7 @@
                     "/"
                 ]
             },
-            "time": "2023-12-06T15:30:35+00:00"
+            "time": "2023-12-08T13:31:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
@@ -1642,15 +1642,15 @@
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
-            "version": "0.10.21",
+            "version": "0.10.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-team-contacts",
-                "reference": "tags/0.10.21"
+                "reference": "tags/0.10.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/0.10.21.zip"
+                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/0.10.22.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1666,7 +1666,7 @@
                     "/"
                 ]
             },
-            "time": "2023-12-06T15:31:42+00:00"
+            "time": "2023-12-08T09:49:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
@@ -1808,15 +1808,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.43",
+            "version": "0.10.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.43"
+                "reference": "tags/0.10.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.43.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.44.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1831,19 +1831,19 @@
                     "/"
                 ]
             },
-            "time": "2023-11-23T18:54:26+00:00"
+            "time": "2023-12-08T13:27:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.116",
+            "version": "0.10.117",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.116"
+                "reference": "tags/0.10.117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.116.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.117.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1858,7 +1858,7 @@
                     "/"
                 ]
             },
-            "time": "2023-11-14T10:25:00+00:00"
+            "time": "2023-12-08T13:35:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -2648,16 +2648,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.67",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "bf677d1132557180a24cf5dc1a9cbab79aa9ffd0"
+                "reference": "8f55b81ec95207e451f24862d2cb844c53bf2698"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/bf677d1132557180a24cf5dc1a9cbab79aa9ffd0",
-                "reference": "bf677d1132557180a24cf5dc1a9cbab79aa9ffd0",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/8f55b81ec95207e451f24862d2cb844c53bf2698",
+                "reference": "8f55b81ec95207e451f24862d2cb844c53bf2698",
                 "shasum": ""
             },
             "require": {
@@ -2687,9 +2687,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.67"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.0"
             },
-            "time": "2023-08-18T14:27:10+00:00"
+            "time": "2023-11-15T07:04:48+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2839,16 +2839,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.293.5",
+            "version": "3.293.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f2002e52b382b45231da3f9552033f769acfebd8"
+                "reference": "1e01734856f8ec2b6d525d1c99c5a34029217598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f2002e52b382b45231da3f9552033f769acfebd8",
-                "reference": "f2002e52b382b45231da3f9552033f769acfebd8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1e01734856f8ec2b6d525d1c99c5a34029217598",
+                "reference": "1e01734856f8ec2b6d525d1c99c5a34029217598",
                 "shasum": ""
             },
             "require": {
@@ -2928,9 +2928,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.293.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.293.6"
             },
-            "time": "2023-12-06T19:09:15+00:00"
+            "time": "2023-12-07T19:29:50+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -7978,12 +7978,12 @@
             "version": "2.9.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
                 "reference": "2acf168de78487db620ab4bc524135a13cfe6745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/2acf168de78487db620ab4bc524135a13cfe6745",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/2acf168de78487db620ab4bc524135a13cfe6745",
                 "reference": "2acf168de78487db620ab4bc524135a13cfe6745",
                 "shasum": ""
             },
@@ -8054,6 +8054,20 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/PHPCSStandards",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/jrfnl",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/php_codesniffer",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2018-11-07T22:31:41+00:00"
         },
         {
@@ -9761,23 +9775,23 @@
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
-            "version": "2.2.6",
+            "version": "v2.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c"
+                "reference": "83ee6f38df0a63106a9e4536e3060458b74ccedb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/c42125b83a4fa63b187fdf29f9c93cb7733da30c",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/83ee6f38df0a63106a9e4536e3060458b74ccedb",
+                "reference": "83ee6f38df0a63106a9e4536e3060458b74ccedb",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "php": "^5.5 || ^7.0 || ^8.0",
-                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^7.5 || ^8.5.21 || ^9.5.10"
@@ -9808,9 +9822,9 @@
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "support": {
                 "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
-                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.6"
+                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
-            "time": "2023-01-03T09:29:04+00:00"
+            "time": "2023-12-08T13:03:43+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -9890,16 +9904,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.47",
+            "version": "1.10.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "84dbb33b520ea28b6cf5676a3941f4bae1c1ff39"
+                "reference": "087ed4b5f4a7a6e8f3bbdfbfe98ce5c181380bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/84dbb33b520ea28b6cf5676a3941f4bae1c1ff39",
-                "reference": "84dbb33b520ea28b6cf5676a3941f4bae1c1ff39",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/087ed4b5f4a7a6e8f3bbdfbfe98ce5c181380bc6",
+                "reference": "087ed4b5f4a7a6e8f3bbdfbfe98ce5c181380bc6",
                 "shasum": ""
             },
             "require": {
@@ -9948,7 +9962,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-01T15:19:17+00:00"
+            "time": "2023-12-08T14:34:28+00:00"
         }
     ],
     "aliases": [],
