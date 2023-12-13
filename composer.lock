@@ -2134,15 +2134,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.10.119",
+            "version": "0.10.120",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.10.119"
+                "reference": "tags/0.10.120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.119.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.10.120.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -2156,7 +2156,7 @@
                     "/"
                 ]
             },
-            "time": "2023-11-22T18:31:36+00:00"
+            "time": "2023-12-13T16:14:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
