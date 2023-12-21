@@ -7,7 +7,9 @@
 			"SiteName": "Afterlogic Aurora Corporate",
 			"ProductName": "Afterlogic Aurora Corporate",
 			"AllowGroups": true,
-			"EnableFailedLoginBlock": true
+			"EnableFailedLoginBlock": true,
+			"LoginBlockAvailableTriesCount": 10,
+			"LoginBlockDurationMinutes": 3
 		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts", "calendar", "files"],
