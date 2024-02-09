@@ -100,6 +100,11 @@ INSTALLATION_PATH=${DIR}/vendor/afterlogic/dav
 update $INSTALLATION_PATH
 printf "\n\n"
 
+printf $GREEN"Updadating "$YELLOW"MailSo"$GREEN".\n"$NC
+INSTALLATION_PATH=${DIR}/vendor/afterlogic/mailso
+update $INSTALLATION_PATH
+printf "\n\n"
+
 
 printf "${BG_GREEN} Updating the database ${NC}\n"
 ${DIR}/system/bin/console migrate --no-interaction
