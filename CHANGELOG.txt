@@ -1,3 +1,10 @@
+[9.8.3]
+[*] Fixed opening attachement is attached .eml files
+[*] Fixed problem with reccurent events in external iCal feed
+[*] Fixed problem with global address book on iOS
+[*] Fixed displaying Tasks with no time
+[*] Fixed file drag'n'drop between different storages
+
 [9.8.2]
 [+] It is now possible to skip 2FA when logging onto DAV ("Skip2FA" setting in Dav module)
 [+] IgnoreImapSubscription setting now applies to Aurora Mail mobile app as well
