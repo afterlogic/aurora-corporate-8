@@ -74,7 +74,8 @@
 			"Disabled": true
 		},
 		"CoreParanoidEncryptionWebclientPlugin": {
-			"Disabled": true
+			"Disabled": true,
+			"AllowBackwardCompatibility": false
 		},
 		"LicensingWebclient": {
 			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-9\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-aurora-corporate-9</a>",
