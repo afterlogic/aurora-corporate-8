@@ -28,13 +28,13 @@ log() { printf "${GREEN}%s${NC}\n" "$1"; }
 warn() { printf "${YELLOW}%s${NC}\n" "$1"; }
 
 write_env_files() {
-  log "Writing .env and mobile env.js for ${MAMP_URL}"
+  log "Writing .env and mobile env.cjs for ${MAMP_URL}"
   cat > "${DIR}/.env" <<EOF
 VUE_APP_API_HOST=${MAMP_URL}
 EOF
 
   mkdir -p "${DIR}/modules/CoreMobileWebclient/vue-mobile"
-  cat > "${DIR}/modules/CoreMobileWebclient/vue-mobile/env.js" <<EOF
+  cat > "${DIR}/modules/CoreMobileWebclient/vue-mobile/env.cjs" <<EOF
 module.exports = {
     API_ENDPOINT: '${MAMP_URL}'
 }
@@ -107,34 +107,18 @@ build_mobile() {
   log "Building mobile app (vue-mobile)"
   cd "${DIR}/modules/CoreMobileWebclient/vue-mobile"
   if [ ! -d node_modules ]; then
-    npm install
+    npm install --legacy-peer-deps
   fi
-  node build-scripts/prepare-files.js
-  npx quasar build
-  node build-scripts/build-production.js 2>/dev/null || {
-    # build-production.js calls quasar again; dist already exists after npx quasar build
-    SRC=./dist/spa
-    DEST=../../../static/vue-mobile/
-    rm -rf "${DEST}"
-    mkdir -p "$(dirname "${DEST}")"
-    cp -R "${SRC}/." "${DEST}"
-    sed -i '' 's|<head>|<head><base href="static/vue-mobile/">|' "${DEST}index.html" 2>/dev/null || \
-      sed -i 's|<head>|<head><base href="static/vue-mobile/">|' "${DEST}index.html"
-  }
+  node build-scripts/build-production.cjs
 }
 
 build_admin() {
   log "Building admin panel"
   cd "${DIR}/modules/AdminPanelWebclient/vue"
   if [ ! -d node_modules ]; then
-    npm install
+    npm install --legacy-peer-deps
   fi
-  node build-scripts/prepare-files.js
-  npx quasar build
-  SRC=./dist/spa
-  DEST=../../../adminpanel/
-  cp -R "${SRC}/." "${DEST}/"
-  mv -f "${DEST}/index.html" "${DEST}/main.html"
+  node build-scripts/build-production.cjs
   write_adminpanel_index
 }
 
