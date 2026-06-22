@@ -12,8 +12,8 @@ GREEN='\033[1;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
+# CoreMobileWebclient is excluded: its vue-mobile/ subproject lives on local/quasar-v4-upgrade.
 MOBILE_MODULES=(
-  CoreMobileWebclient
   CoreParanoidEncryptionWebclientPlugin
   ContactsMobileWebclient
   FilesMobileWebclient
@@ -83,6 +83,53 @@ clear_cache() {
   rm -rf "${DIR}/data/cache"/*
 }
 
+ensure_mobile_webclient_branch() {
+  path="${DIR}/modules/CoreMobileWebclient"
+  if [ ! -d "${path}/.git" ]; then
+    warn "CoreMobileWebclient is not a git repo, skipping branch checkout"
+    return
+  fi
+  cd "${path}"
+  if git show-ref --verify --quiet refs/heads/local/quasar-v4-upgrade; then
+    if [ "$(git branch --show-current)" != "local/quasar-v4-upgrade" ]; then
+      git checkout -f local/quasar-v4-upgrade
+    fi
+    log "CoreMobileWebclient -> local/quasar-v4-upgrade"
+  else
+    warn "CoreMobileWebclient: local/quasar-v4-upgrade branch not found"
+  fi
+}
+
+ensure_admin_webclient_branch() {
+  path="${DIR}/modules/AdminPanelWebclient"
+  if [ ! -d "${path}/.git" ]; then
+    warn "AdminPanelWebclient is not a git repo, skipping branch checkout"
+    return
+  fi
+  cd "${path}"
+  if git show-ref --verify --quiet refs/heads/local/quasar-v4-upgrade; then
+    if [ "$(git branch --show-current)" != "local/quasar-v4-upgrade" ]; then
+      git checkout -f local/quasar-v4-upgrade
+    fi
+    log "AdminPanelWebclient -> local/quasar-v4-upgrade"
+  else
+    warn "AdminPanelWebclient: local/quasar-v4-upgrade branch not found"
+  fi
+}
+
+run_build_script() {
+  dir="$1"
+  cd "${dir}"
+  if [ -f build-scripts/build-production.cjs ]; then
+    node build-scripts/build-production.cjs
+  elif [ -f build-scripts/build-production.js ]; then
+    node build-scripts/build-production.js
+  else
+    printf "${RED}No build-production script in ${dir}${NC}\n" >&2
+    exit 1
+  fi
+}
+
 checkout_mobile_modules() {
   log "Checking out vue-mobile branch for mobile modules"
   for module in "${MOBILE_MODULES[@]}"; do
@@ -105,20 +152,23 @@ checkout_mobile_modules() {
 
 build_mobile() {
   log "Building mobile app (vue-mobile)"
+  ensure_mobile_webclient_branch
+  write_env_files
   cd "${DIR}/modules/CoreMobileWebclient/vue-mobile"
   if [ ! -d node_modules ]; then
     npm install --legacy-peer-deps
   fi
-  node build-scripts/build-production.cjs
+  run_build_script "${DIR}/modules/CoreMobileWebclient/vue-mobile"
 }
 
 build_admin() {
   log "Building admin panel"
+  ensure_admin_webclient_branch
   cd "${DIR}/modules/AdminPanelWebclient/vue"
   if [ ! -d node_modules ]; then
     npm install --legacy-peer-deps
   fi
-  node build-scripts/build-production.cjs
+  run_build_script "${DIR}/modules/AdminPanelWebclient/vue"
   write_adminpanel_index
 }
 
@@ -148,6 +198,9 @@ case "${1:-}" in
     ;;
   --mobile-modules)
     checkout_mobile_modules
+    ensure_mobile_webclient_branch
+    ensure_admin_webclient_branch
+    write_env_files
     ;;
   --build)
     build_mobile
