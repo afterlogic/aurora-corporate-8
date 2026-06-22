@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0a979c19d1e15d42d5fec64a1c988df",
+    "content-hash": "08ee0183afeb8b86e8d2cab9af1a6d47",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -1200,18 +1200,18 @@
         },
         {
             "name": "afterlogic/aurora-module-mobile-webclient-files",
-            "version": "0.10.6",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-files",
-                "reference": "tags/0.10.6"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-files/archive/0.10.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-files/archive/0.10.9.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-framework": "~0.10.0 || dev-master",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1223,7 +1223,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:48:58+00:00"
+            "time": "2025-06-09T10:38:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-webclient-mail",

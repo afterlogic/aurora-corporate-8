@@ -34,4 +34,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 include_once 'system/autoload.php';
 
+// Desktop entry must not inherit aurora-mobile=1 from the mobile webclient (same path /).
+if (!\array_key_exists('mobile-version', $_GET)) {
+    \Aurora\System\Managers\Integrator::getInstance()->setMobile(false);
+}
+
 \Aurora\System\Application::Start();
