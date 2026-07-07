@@ -2816,16 +2816,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.66",
+            "version": "1.5.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "cae67fc69bb8f8c8ea2280a806655326117d4b20"
+                "reference": "8e20c65a95b504dc4b05ecddbc2bea111f8b6ea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/cae67fc69bb8f8c8ea2280a806655326117d4b20",
-                "reference": "cae67fc69bb8f8c8ea2280a806655326117d4b20",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/8e20c65a95b504dc4b05ecddbc2bea111f8b6ea6",
+                "reference": "8e20c65a95b504dc4b05ecddbc2bea111f8b6ea6",
                 "shasum": ""
             },
             "require": {
@@ -2855,9 +2855,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.66"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.76"
             },
-            "time": "2024-02-09T13:42:30+00:00"
+            "time": "2026-04-21T14:08:31+00:00"
         },
         {
             "name": "aws/aws-crt-php",

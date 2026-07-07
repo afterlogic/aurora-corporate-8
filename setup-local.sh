@@ -28,13 +28,13 @@ log() { printf "${GREEN}%s${NC}\n" "$1"; }
 warn() { printf "${YELLOW}%s${NC}\n" "$1"; }
 
 write_env_files() {
-  log "Writing .env and mobile env.cjs for ${MAMP_URL}"
+  log "Writing .env and mobile env.js for ${MAMP_URL}"
   cat > "${DIR}/.env" <<EOF
 VUE_APP_API_HOST=${MAMP_URL}
 EOF
 
   mkdir -p "${DIR}/modules/CoreMobileWebclient/vue-mobile"
-  cat > "${DIR}/modules/CoreMobileWebclient/vue-mobile/env.cjs" <<EOF
+  cat > "${DIR}/modules/CoreMobileWebclient/vue-mobile/env.js" <<EOF
 module.exports = {
     API_ENDPOINT: '${MAMP_URL}'
 }

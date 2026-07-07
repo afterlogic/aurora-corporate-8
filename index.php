@@ -34,9 +34,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 include_once 'system/autoload.php';
 
+$oIntegrator = \Aurora\System\Managers\Integrator::getInstance();
+$isMobileVersion = \array_key_exists('mobile-version', $_GET);
+$isMobileAppRequest = isset($_SERVER['HTTP_X_MOBILEAPP']) && '1' === (string) $_SERVER['HTTP_X_MOBILEAPP'];
+
 // Desktop entry must not inherit aurora-mobile=1 from the mobile webclient (same path /).
-if (!\array_key_exists('mobile-version', $_GET)) {
-    \Aurora\System\Managers\Integrator::getInstance()->setMobile(false);
+if ($isMobileVersion || $isMobileAppRequest) {
+    $oIntegrator->setMobile(true);
+} else {
+    $oIntegrator->setMobile(false);
 }
 
 \Aurora\System\Application::Start();
