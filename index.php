@@ -35,14 +35,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 include_once 'system/autoload.php';
 
 $oIntegrator = \Aurora\System\Managers\Integrator::getInstance();
-$isMobileVersion = \array_key_exists('mobile-version', $_GET);
+$sQueryString = isset($_SERVER['QUERY_STRING']) ? \urldecode((string) $_SERVER['QUERY_STRING']) : '';
+$isMobileVersion = \array_key_exists('mobile-version', $_GET)
+	|| false !== \strpos($sQueryString, 'mobile-version');
 $isMobileAppRequest = isset($_SERVER['HTTP_X_MOBILEAPP']) && '1' === (string) $_SERVER['HTTP_X_MOBILEAPP'];
 
-// Desktop entry must not inherit aurora-mobile=1 from the mobile webclient (same path /).
+// Keep aurora-mobile in sync for Vue mobile entry without clearing the cookie on /.
 if ($isMobileVersion || $isMobileAppRequest) {
     $oIntegrator->setMobile(true);
-} else {
-    $oIntegrator->setMobile(false);
 }
 
 \Aurora\System\Application::Start();
