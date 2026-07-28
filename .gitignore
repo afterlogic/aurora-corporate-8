@@ -17,3 +17,7 @@
 .vscode/
 .php-cs-fixer.cache
 .env
+
+# Desktop E2E artifacts live under modules/CoreWebclient/test/e2e (gitignored via /modules).
+# Local Cursor agent rules
+.cursor/
