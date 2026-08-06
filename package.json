@@ -25,7 +25,7 @@
     "test:e2e-mobile": "node modules/CoreMobileWebclient/vue-mobile/test/e2e/scripts/playwright-cli.js test",
     "test:e2e-mobile:ui": "node modules/CoreMobileWebclient/vue-mobile/test/e2e/scripts/playwright-cli.js test --ui",
     "test:e2e-mobile:report": "playwright show-report modules/CoreMobileWebclient/vue-mobile/playwright-report",
-    "test:e2e-mobile:install-browsers": "playwright install chromium webkit"
+    "test:e2e-mobile:install-browsers": "playwright install chromium firefox webkit"
   },
   "dependencies": {
     "corewebclient": "file:./modules/CoreWebclient"
