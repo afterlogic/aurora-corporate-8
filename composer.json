@@ -139,6 +139,8 @@
 		"afterlogic/aurora-module-activity-history": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mobile-apps": "~0.10.0",
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
+		"afterlogic/aurora-module-mobile-webclient-openpgp": "~0.10.0",
+		"afterlogic/aurora-module-mobile-webclient-openpgp-files": "~0.10.0",
 		"afterlogic/aurora-module-gmail-connector": "~0.10.0",
 		"afterlogic/aurora-module-webclient-rocketchat": "~0.10.0",
 		"afterlogic/aurora-module-mail-scheduled-messages": "~0.10.0",
