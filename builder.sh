@@ -7,6 +7,7 @@ NC='\033[0m' # No Color
 
 DIR=$(cd `dirname $0` && pwd)
 DIR_VUE="${DIR}/modules/AdminPanelWebclient/vue"
+DIR_VUE_MOBILE="${DIR}/modules/CoreMobileWebclient/vue-mobile"
 
 TASK="list"
 
@@ -41,6 +42,7 @@ if [ "$TASK" = "list" ]; then
   - build
     - build-main
     - build-admin
+    - build-mobile
   - watch-js
   - watch-styles
   - pack
@@ -63,11 +65,18 @@ if [ "$TASK" = "npm" ]; then
 		npm install
 		npm install -g @quasar/cli
 	fi
+
+	if [ -d "$DIR_VUE_MOBILE" ]; then
+		cd ${DIR_VUE_MOBILE}
+		npm install
+		npm install -g @quasar/cli
+	fi
 fi
 
 if [ "$TASK" = "build" ]; then
 	./builder.sh -t build-main
 	./builder.sh -t build-admin
+	./builder.sh -t build-mobile
 fi
 
 if [ "$TASK" = "build-main" ]; then
@@ -81,6 +90,13 @@ fi
 if [ "$TASK" = "build-admin" ]; then
 	if [ -d "$DIR_VUE" ]; then
 		cd ${DIR_VUE}
+		npm run build-production
+	fi
+fi
+
+if [ "$TASK" = "build-mobile" ]; then
+	if [ -d "$DIR_VUE_MOBILE" ]; then
+		cd ${DIR_VUE_MOBILE}
 		npm run build-production
 	fi
 fi
