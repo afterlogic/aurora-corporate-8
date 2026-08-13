@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86868ae7533398619f59dd9eb82a8305",
+    "content-hash": "2be3221abfba255904248c6e63d2f0e0",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -1327,6 +1327,33 @@
                 "installer-name": "OpenPgpFilesMobileWebclient"
             },
             "time": "2022-06-09T14:15:18+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-mobile-webclient-settings",
+            "version": "0.10.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-settings",
+                "reference": "tags/0.10.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-settings/archive/0.10.6.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0 || dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "SettingsMobileWebclient"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2024-01-11T15:35:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-webclient-standard-login-form",
