@@ -47,7 +47,11 @@ git clone https://github.com/afterlogic/aurora-corporate-8.git INSTALL_FOLDER_PA
       ```bash
       cd modules/AdminPanelWebclient/vue
       npm install
-      npm install -g @quasar/cli
+      ```
+      and the dependencies required for the mobile UI to work
+      ```bash
+      cd modules/CoreMobileWebclient/vue-mobile
+      npm install
       ```
 	  or you can execute all the actions mentioned above by using the following command
 	  ```
@@ -64,6 +68,11 @@ git clone https://github.com/afterlogic/aurora-corporate-8.git INSTALL_FOLDER_PA
       and build adminpanel 
       ```bash
       cd modules/AdminPanelWebclient/vue
+      npm run build-production
+      ```
+      and build the mobile UI
+      ```bash
+      cd modules/CoreMobileWebclient/vue-mobile
       npm run build-production
       ```
 	  or use all-in-one command

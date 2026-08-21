@@ -63,13 +63,11 @@ if [ "$TASK" = "npm" ]; then
 	if [ -d "$DIR_VUE" ]; then
 		cd ${DIR_VUE}
 		npm install
-		npm install -g @quasar/cli
 	fi
 
 	if [ -d "$DIR_VUE_MOBILE" ]; then
 		cd ${DIR_VUE_MOBILE}
 		npm install
-		npm install -g @quasar/cli
 	fi
 fi
 
