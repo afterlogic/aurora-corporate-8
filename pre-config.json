@@ -38,6 +38,9 @@
 		"MailWebclient": {
 			"AllowSearchMessagesBySubject": true
 		},
+		"CustomMailHeadersReader": {
+			"Disabled": true
+		},
 		"ChangePasswordWebclient": {
 			"Disabled": true
 		},
